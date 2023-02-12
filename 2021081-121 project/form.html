@@ -1,0 +1,184 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="form.css">
+    <title>Course Evaluation</title>
+</head>
+<body style="background-image: url('bg.jfif');" >
+
+<form class="Form" action="submitted.html">
+
+<hr><h1>Course Evaluation Form</h1> <hr>   
+
+
+<p>
+<label>Name
+<input type="text" name="Name" placeholder="Name" required>
+</label> 
+</p>
+
+<p>
+<label>Reg No.
+<input type="number" name="Number" placeholder="2021XXX" minimum="2018000" naximum="2021999" required>
+</label>
+</p>
+
+<p>
+    <label>Course 
+    <select id="Subjects" name="Subjects">
+    <option value="CS121">CS121</option>
+    <option value="CS103">CS103</option>
+    <option value="MT101">MT101</option>
+    <option value="HM101">HM101</option>
+    <option value="PH103">PH103</option>
+    </select>
+    </label>
+    </p>
+
+    <br>
+    <h1 style="color:white;">Please Evaluate Honestly!</h2>
+    <table style="width:100%">
+        <tr>
+          <th></th>
+          <th>Excellent</th>
+          <th>Very Good</th>
+          <th>   Good  </th>
+          <th>   Fair  </th>
+          <th>   Poor  </th>
+          <th>very poor</th>
+        </tr>
+        <tr>
+          <br><th>The Course as a whole was</th>
+          <td> <input type="radio" name="eff" required value="Excellent"checked></td>
+          <td><input type="radio" name="eff" required value="Very good"></td>
+          <td><input type="radio" name="eff" required value="Good"></td>
+          <td><input type="radio" name="eff" required value="Fair"></td>
+          <td><input type="radio" name="eff" required value="Poor"></td>
+          <td><input type="radio" name="eff" required value="Very poor"></td>
+        </tr>
+        <tr>
+            <th>The Course content was</th>
+            <td> <input type="radio" name="ef" required value="Excellent" checked></td>
+            <td><input type="radio" name="ef" required value="Very good"></td>
+            <td><input type="radio" name="ef" required value="Good"></td>
+            <td><input type="radio" name="ef" required value="Fair"></td>
+            <td><input type="radio" name="ef" required value="Poor"></td>
+            <td><input type="radio" name="ef" required value="Very poor"></td>
+          </tr>
+          <tr>
+            <th>The instructors contribution was</th>
+            <td> <input type="radio" name="e" required value="Excellent" checked></td>
+            <td><input type="radio" name="e" required value="Very good"></td>
+            <td><input type="radio" name="e" required value="Good"></td>
+            <td><input type="radio" name="e" required value="Fair"></td>
+            <td><input type="radio" name="e" required value="Poor"></td>
+            <td><input type="radio" name="e" required value="Very poor"></td>
+          </tr>
+          <tr>
+            <th>The instructors effectiveness</th>
+            <td> <input type="radio" name="efff" required value="Excellent"checked></td>
+            <td><input type="radio" name="efff" required value="Very good"></td>
+            <td><input type="radio" name="efff" required value="Good"></td>
+            <td><input type="radio" name="efff" required value="Fair"></td>
+            <td><input type="radio" name="efff" required value="Poor"></td>
+            <td><input type="radio" name="efff" required value="Very poor"></td>
+          </tr>
+          <tr>
+            <th>The Course organisation was</th>
+            <td> <input type="radio" name="effo" required value="Excellent"checked></td>
+            <td><input type="radio" name="effo" required value="Very good"></td>
+            <td><input type="radio" name="effo" required value="Good"></td>
+            <td><input type="radio" name="effo" required value="Fair"></td>
+            <td><input type="radio" name="effo" required value="Poor"></td>
+            <td><input type="radio" name="effo" required value="Very poor"></td>
+          </tr>
+          <tr>
+            <th>The Explanations by the instructor was</th>
+            <td> <input type="radio" name="effor" required value="Excellent"checked></td>
+            <td><input type="radio" name="effor" required value="Very good"></td>
+            <td><input type="radio" name="effor" required value="Good"></td>
+            <td><input type="radio" name="effor" required value="Fair"></td>
+            <td><input type="radio" name="effor" required value="Poor"></td>
+            <td><input type="radio" name="effor" required value="Very poor"></td>
+          </tr>
+          <tr>
+            <th>Instructors use of illustration was</th>
+            <td> <input type="radio" name="a" required value="Excellent"checked></td>
+            <td><input type="radio" name="a" required value="Very good"></td>
+            <td><input type="radio" name="a" required value="Good"></td>
+            <td><input type="radio" name="a" required value="Fair"></td>
+            <td><input type="radio" name="a" required value="Poor"></td>
+            <td><input type="radio" name="a" required value="Very poor"></td>
+          </tr>
+          <tr>
+            <th>Answers to student's question were</th>
+            <td> <input type="radio" name="b" required value="Excellent"checked></td>
+            <td><input type="radio" name="b" required value="Very good"></td>
+            <td><input type="radio" name="b" required value="Good"></td>
+            <td><input type="radio" name="b" required value="Fair"></td>
+            <td><input type="radio" name="b" required value="Poor"></td>
+            <td><input type="radio" name="b" required value="Very poor"></td>
+          </tr>
+          <tr>
+            <th>Use of class time was</th>
+            <td> <input type="radio" name="c" required value="Excellent"checked></td>
+            <td><input type="radio" name="c" required value="Very good"></td>
+            <td><input type="radio" name="c" required value="Good"></td>
+            <td><input type="radio" name="c" required value="Fair"></td>
+            <td><input type="radio" name="c" required value="Poor"></td>
+            <td><input type="radio" name="c" required value="Very poor"></td>
+          </tr>
+          <tr>
+            <th>Amount you learned was</th>
+            <td> <input type="radio" name="d" required value="Excellent"checked></td>
+            <td><input type="radio" name="d" required value="Very good"></td>
+            <td><input type="radio" name="d" required value="Good"></td>
+            <td><input type="radio" name="d" required value="Fair"></td>
+            <td><input type="radio" name="d" required value="Poor"></td>
+            <td><input type="radio" name="d" required value="Very poor"></td>
+          </tr>
+      </table>
+      <br>
+
+<fieldset>
+<legend>How much effort did you put into this course?</legend>
+<p><label class="choice"> <input type="radio" name="effort" required value="Excellent"> Excellent </label></p>
+<p><label class="choice"> <input type="radio" name="effort" required value="Very good"> Very good </label></p>
+<p><label class="choice"> <input type="radio" name="effort" required value="Good"> Good </label></p>
+<p><label class="choice"> <input type="radio" name="effort" required value="Fair"> Fair </label></p>
+<p><label class="choice"> <input type="radio" name="effort" required value="Poor"> Poor </label></p>
+<p><label class="choice"> <input type="radio" name="effort" required value="Very poor"> Very poor </label></p>
+
+</fieldset>
+
+<fieldset>
+<legend>How many hours did you put into this course per week?</legend>
+<p><label class="choice"> <input type="radio" name="hourse" required value="Excellent"> 15+ </label></p>
+<p><label class="choice"> <input type="radio" name="hourse" required value="Good"> 10-15 </label></p>
+<p><label class="choice"> <input type="radio" name="hourse" required value="Fair"> 5-10 </label></p>
+<p><label class="choice"> <input type="radio" name="hourse" required value="Poor"> 2-5 </label></p>
+<p><label class="choice"> <input type="radio" name="hourse" required value="Very poor"> 0-2 </label></p>
+</fieldset>
+
+<legend>What grade are you expecting?</legend>
+<p><label class="choice"> <input type="radio" name="grades" required value="vgood"> A(90-100)</label></p>
+<p><label class="choice"> <input type="radio" name="grades" required value="Good"> B(80-89) </label></p>
+<p><label class="choice"> <input type="radio" name="grades" required value="Fair"> C(70-79) </label></p>
+<p><label class="choice"> <input type="radio" name="grades" required value="Poor"> D(60-69) </label></p>
+
+
+<p>
+<label>is there any feedback you'd like to give on this class?
+<textarea name="comments" maxlength="500"></textarea>
+</label>
+
+</p>
+<br>
+<p><button>Submit Response</button></p>
+
+
+</form>
+
+</body>
+</html>
